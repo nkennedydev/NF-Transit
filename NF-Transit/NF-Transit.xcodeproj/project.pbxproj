@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3911B3F61F01BA58003BC63D /* NF_Transit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3911B3F41F01BA58003BC63D /* NF_Transit.xcdatamodeld */; };
 		3911B3F81F01BA58003BC63D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3911B3F71F01BA58003BC63D /* Assets.xcassets */; };
 		3911B4061F01BA58003BC63D /* NF_TransitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3911B4051F01BA58003BC63D /* NF_TransitTests.swift */; };
 		3911B4111F01BA58003BC63D /* NF_TransitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3911B4101F01BA58003BC63D /* NF_TransitUITests.swift */; };
-		3911B4201F01BBDB003BC63D /* NF_Transit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3911B3F41F01BA58003BC63D /* NF_Transit.xcdatamodeld */; };
 		3911B4251F01BBDB003BC63D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3911B3F71F01BA58003BC63D /* Assets.xcassets */; };
 		3911B42F1F01BC93003BC63D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3911B42C1F01BC93003BC63D /* AppDelegate.swift */; };
 		3911B4301F01BC93003BC63D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3911B42C1F01BC93003BC63D /* AppDelegate.swift */; };
-		3911B4321F01BC93003BC63D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3911B42D1F01BC93003BC63D /* Info.plist */; };
 		3911B4341F01BC93003BC63D /* Prod-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3911B42E1F01BC93003BC63D /* Prod-Info.plist */; };
+		3911B43A1F01C222003BC63D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3911B42D1F01BC93003BC63D /* Info.plist */; };
+		3911B43F1F01C33E003BC63D /* NF_Transit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3911B43D1F01C33E003BC63D /* NF_Transit.xcdatamodeld */; };
+		3911B4401F01C33E003BC63D /* NF_Transit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3911B43D1F01C33E003BC63D /* NF_Transit.xcdatamodeld */; };
+		B866D2640248FFAAB425F73F /* libPods-NF-Transit Prod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D778CAFF6B23D0BC0721E2 /* libPods-NF-Transit Prod.a */; };
+		CF1410137CECDE6780FF39EE /* libPods-NF-Transit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB30426539693C188322823 /* libPods-NF-Transit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03D778CAFF6B23D0BC0721E2 /* libPods-NF-Transit Prod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NF-Transit Prod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EB30426539693C188322823 /* libPods-NF-Transit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NF-Transit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3911B3EA1F01BA58003BC63D /* NF-Transit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NF-Transit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3911B3F51F01BA58003BC63D /* NF_Transit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NF_Transit.xcdatamodel; sourceTree = "<group>"; };
 		3911B3F71F01BA58003BC63D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3911B4011F01BA58003BC63D /* NF-TransitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NF-TransitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3911B4051F01BA58003BC63D /* NF_TransitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NF_TransitTests.swift; sourceTree = "<group>"; };
@@ -50,6 +53,11 @@
 		3911B42C1F01BC93003BC63D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3911B42D1F01BC93003BC63D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "NF-Transit/Application/Info.plist"; sourceTree = SOURCE_ROOT; };
 		3911B42E1F01BC93003BC63D /* Prod-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Prod-Info.plist"; path = "NF-Transit/Application/Prod-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3911B43E1F01C33E003BC63D /* NF_Transit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NF_Transit.xcdatamodel; sourceTree = "<group>"; };
+		5925A50B68C460A032E04ED1 /* Pods-NF-Transit Prod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NF-Transit Prod.release.xcconfig"; path = "Pods/Target Support Files/Pods-NF-Transit Prod/Pods-NF-Transit Prod.release.xcconfig"; sourceTree = "<group>"; };
+		792892E24C43ABF823718A64 /* Pods-NF-Transit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NF-Transit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NF-Transit/Pods-NF-Transit.debug.xcconfig"; sourceTree = "<group>"; };
+		9EC6ECC1D9734C148566E7AC /* Pods-NF-Transit Prod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NF-Transit Prod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NF-Transit Prod/Pods-NF-Transit Prod.debug.xcconfig"; sourceTree = "<group>"; };
+		F60B13D7C5D998A62F61ED7B /* Pods-NF-Transit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NF-Transit.release.xcconfig"; path = "Pods/Target Support Files/Pods-NF-Transit/Pods-NF-Transit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF1410137CECDE6780FF39EE /* libPods-NF-Transit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +87,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B866D2640248FFAAB425F73F /* libPods-NF-Transit Prod.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EC75F7AF8BA5F848AC0C730 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				792892E24C43ABF823718A64 /* Pods-NF-Transit.debug.xcconfig */,
+				F60B13D7C5D998A62F61ED7B /* Pods-NF-Transit.release.xcconfig */,
+				9EC6ECC1D9734C148566E7AC /* Pods-NF-Transit Prod.debug.xcconfig */,
+				5925A50B68C460A032E04ED1 /* Pods-NF-Transit Prod.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3911B3E11F01BA58003BC63D = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +112,8 @@
 				3911B4041F01BA58003BC63D /* NF-TransitTests */,
 				3911B40F1F01BA58003BC63D /* NF-TransitUITests */,
 				3911B3EB1F01BA58003BC63D /* Products */,
+				1EC75F7AF8BA5F848AC0C730 /* Pods */,
+				A67A823FA7CB2614066A5C88 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,8 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				3911B42B1F01BC93003BC63D /* Application */,
+				3911B43B1F01C33E003BC63D /* CoreData */,
 				3911B3F71F01BA58003BC63D /* Assets.xcassets */,
-				3911B3F41F01BA58003BC63D /* NF_Transit.xcdatamodeld */,
 			);
 			path = "NF-Transit";
 			sourceTree = "<group>";
@@ -143,6 +166,31 @@
 			path = Application;
 			sourceTree = "<group>";
 		};
+		3911B43B1F01C33E003BC63D /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				3911B43C1F01C33E003BC63D /* Schemas */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		3911B43C1F01C33E003BC63D /* Schemas */ = {
+			isa = PBXGroup;
+			children = (
+				3911B43D1F01C33E003BC63D /* NF_Transit.xcdatamodeld */,
+			);
+			path = Schemas;
+			sourceTree = "<group>";
+		};
+		A67A823FA7CB2614066A5C88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EB30426539693C188322823 /* libPods-NF-Transit.a */,
+				03D778CAFF6B23D0BC0721E2 /* libPods-NF-Transit Prod.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3911B4151F01BA58003BC63D /* Build configuration list for PBXNativeTarget "NF-Transit" */;
 			buildPhases = (
+				D8267910D5476B014C2AFB3E /* [CP] Check Pods Manifest.lock */,
 				3911B3E61F01BA58003BC63D /* Sources */,
 				3911B3E71F01BA58003BC63D /* Frameworks */,
 				3911B3E81F01BA58003BC63D /* Resources */,
+				C5FF8DCD9B55A102A27DA0E1 /* [CP] Embed Pods Frameworks */,
+				44F3836C05E4231A8860B1F2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -203,9 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3911B4261F01BBDB003BC63D /* Build configuration list for PBXNativeTarget "NF-Transit Prod" */;
 			buildPhases = (
+				1BED75DA07CFBFEFE0BC0AA9 /* [CP] Check Pods Manifest.lock */,
 				3911B41F1F01BBDB003BC63D /* Sources */,
 				3911B4231F01BBDB003BC63D /* Frameworks */,
 				3911B4241F01BBDB003BC63D /* Resources */,
+				A9CB474388AA9C3629DB0769 /* [CP] Embed Pods Frameworks */,
+				7A72671036D0E3492BCCC7B9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -274,6 +328,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3911B43A1F01C222003BC63D /* Info.plist in Resources */,
 				3911B3F81F01BA58003BC63D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +351,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3911B4321F01BC93003BC63D /* Info.plist in Resources */,
 				3911B4251F01BBDB003BC63D /* Assets.xcassets in Resources */,
 				3911B4341F01BC93003BC63D /* Prod-Info.plist in Resources */,
 			);
@@ -304,13 +358,106 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1BED75DA07CFBFEFE0BC0AA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		44F3836C05E4231A8860B1F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NF-Transit/Pods-NF-Transit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A72671036D0E3492BCCC7B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NF-Transit Prod/Pods-NF-Transit Prod-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9CB474388AA9C3629DB0769 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NF-Transit Prod/Pods-NF-Transit Prod-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5FF8DCD9B55A102A27DA0E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NF-Transit/Pods-NF-Transit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8267910D5476B014C2AFB3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3911B3E61F01BA58003BC63D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3911B42F1F01BC93003BC63D /* AppDelegate.swift in Sources */,
-				3911B3F61F01BA58003BC63D /* NF_Transit.xcdatamodeld in Sources */,
+				3911B43F1F01C33E003BC63D /* NF_Transit.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +482,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3911B4301F01BC93003BC63D /* AppDelegate.swift in Sources */,
-				3911B4201F01BBDB003BC63D /* NF_Transit.xcdatamodeld in Sources */,
+				3911B4401F01C33E003BC63D /* NF_Transit.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +595,7 @@
 		};
 		3911B4161F01BA58003BC63D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 792892E24C43ABF823718A64 /* Pods-NF-Transit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: nkennedydev+appleca@gmail.com (TYL74V5GNM)";
@@ -465,6 +613,7 @@
 		};
 		3911B4171F01BA58003BC63D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F60B13D7C5D998A62F61ED7B /* Pods-NF-Transit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -539,6 +688,7 @@
 		};
 		3911B4271F01BBDB003BC63D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EC6ECC1D9734C148566E7AC /* Pods-NF-Transit Prod.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2D623BSTXN;
@@ -552,6 +702,7 @@
 		};
 		3911B4281F01BBDB003BC63D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5925A50B68C460A032E04ED1 /* Pods-NF-Transit Prod.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2D623BSTXN;
@@ -582,6 +733,7 @@
 				3911B4171F01BA58003BC63D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3911B4181F01BA58003BC63D /* Build configuration list for PBXNativeTarget "NF-TransitTests" */ = {
 			isa = XCConfigurationList;
@@ -590,6 +742,7 @@
 				3911B41A1F01BA58003BC63D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3911B41B1F01BA58003BC63D /* Build configuration list for PBXNativeTarget "NF-TransitUITests" */ = {
 			isa = XCConfigurationList;
@@ -598,6 +751,7 @@
 				3911B41D1F01BA58003BC63D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3911B4261F01BBDB003BC63D /* Build configuration list for PBXNativeTarget "NF-Transit Prod" */ = {
 			isa = XCConfigurationList;
@@ -611,12 +765,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		3911B3F41F01BA58003BC63D /* NF_Transit.xcdatamodeld */ = {
+		3911B43D1F01C33E003BC63D /* NF_Transit.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				3911B3F51F01BA58003BC63D /* NF_Transit.xcdatamodel */,
+				3911B43E1F01C33E003BC63D /* NF_Transit.xcdatamodel */,
 			);
-			currentVersion = 3911B3F51F01BA58003BC63D /* NF_Transit.xcdatamodel */;
+			currentVersion = 3911B43E1F01C33E003BC63D /* NF_Transit.xcdatamodel */;
 			path = NF_Transit.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

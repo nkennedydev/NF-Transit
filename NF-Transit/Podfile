@@ -1,0 +1,21 @@
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '10.0'
+
+def add_common_dependencies
+    
+    
+end
+
+target ‘NF-Transit' do
+
+    add_common_dependencies
+
+end
+
+target ‘NF-Transit Prod’ do
+
+    add_common_dependencies
+
+end
